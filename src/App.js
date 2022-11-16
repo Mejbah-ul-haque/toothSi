@@ -5,8 +5,7 @@ import Home from './component/Home';
 function App() {
   return (
     <div className="App">
-      <h1>Ok</h1>
-      <button className='btn btn-secondary'>Button</button>
+      
       <Routes>
         <Route path='/' element={<Home />}>
           
