@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { BiSmile } from "react-icons/bi";
 
 const Home = () => {
 	const [services, setServices] = useState([]);
@@ -32,7 +33,7 @@ const Home = () => {
                     <td><img className="h-12 bg-slate-200 p-2" src={service.img} alt="Shoes" /></td>
                     <td>{service.name}</td>
                     <td>{service.features.colors.color1}</td>
-                    <td className={`font-bold ${service.availableQuantity > 0 ? "text-green-600" : "text-red-600"}`}>{service.availableQuantity > 0 ? "in stock" : "Stock out"}</td>
+                    <td className={`flex items-center border-0 ${service.availableQuantity > 0 ? "text-green-600" : "text-red-600"}`}><span className="mr-2 mt-1"><BiSmile /></span>{service.availableQuantity > 0 ? "in stock" : "Stock out"}</td>
                     <td>${service.price}.00</td>
                     <td>{service.name}</td>
 										
