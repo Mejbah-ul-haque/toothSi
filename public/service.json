@@ -4,24 +4,12 @@
     "name" : "Woo Ninja",
     "img": "https://i.ibb.co/F4dPkKP/pink.png",
     "price": 35.00,
-    "features": {
-      "colors": {
-        "color1": "pink",
-        "color2": "orange",
-        "color3": "purple",
-        "color4": "red",
-        "color5": "green"
-      },
-      "sizes" :{
-        "size1": "xxl",
-        "size2": "xl",
-        "size3": "lg",
-        "size4": "m",
-        "size5": "s"
-        
-      }
+  "features": {
+      "colors": ["pink", "orange", "purple", "red", "green"], 
+      "sizes" : ["s", "m", "lg", "xl", "xxl"]    
     },
-    "insStock": 90,
+    "size" : "xl",
+    "inStock": 90,
     "availableQuantity": 200
     
   },
@@ -31,23 +19,11 @@
     "img": "https://i.ibb.co/pfdZ0zJ/black.png",
     "price": 35.00,
     "features": {
-      "colors": {
-        "color1": "black",
-        "color2": "orange",
-        "color3": "purple",
-        "color4": "red",
-        "color5": "green"
-      },
-      "sizes" :{
-        "size1": "xxl",
-        "size2": "xl",
-        "size3": "lg",
-        "size4": "m",
-        "size5": "s"
-        
-      }
+      "colors": ["pink", "orange", "purple", "red", "green"], 
+      "sizes" : ["s", "m", "lg", "xl", "xxl"]    
     },
-    "insStock": 50,
+    "size" : "lg",
+    "inStock": 50,
     "availableQuantity": 200
     
   },
@@ -57,23 +33,11 @@
     "img": "https://i.ibb.co/LrPZZ2X/orange.png",
     "price": 35.00,
     "features": {
-      "colors": {
-        "color1": "orange",
-        "color2": "pink",
-        "color3": "purple",
-        "color4": "red",
-        "color5": "green"
-      },
-      "sizes" :{
-        "size1": "xxl",
-        "size2": "xl",
-        "size3": "lg",
-        "size4": "m",
-        "size5": "s"
-        
-      }
+      "colors": ["pink", "orange", "purple", "red", "green"], 
+      "sizes" : ["s", "m", "lg", "xl", "xxl"]    
     },
-    "insStock": 90,
+    "size" : "M",
+    "inStock": 90,
     "availableQuantity": 300
     
   },
@@ -83,23 +47,11 @@
     "img": "https://i.ibb.co/F5SY0k6/blue.png",
     "price": 35.00,
     "features": {
-      "colors": {
-        "color1": "blue",
-        "color2": "orange",
-        "color3": "purple",
-        "color4": "red",
-        "color5": "green"
-      },
-      "sizes" :{
-        "size1": "xxl",
-        "size2": "xl",
-        "size3": "lg",
-        "size4": "m",
-        "size5": "s"
-        
-      }
+      "colors": ["pink", "orange", "purple", "red", "green"], 
+      "sizes" : ["s", "m", "lg", "xl", "xxl"]    
     },
-    "insStock": 200,
+    "size" : "S",
+    "inStock": 200,
     "availableQuantity": 100
     
   }
